@@ -115,6 +115,8 @@ header{
 }
 footer{
     background: #0B0223;
+    padding: 70px;
+    margin-top: 50px;
 }
 .footer-title{
     color: white;
@@ -122,8 +124,6 @@ footer{
     font-weight: 700;
 }
 .footer-container{
-    margin-top: 50px;
-    padding-top: 20px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -142,5 +142,26 @@ footer{
 list-style: none;
 }
 .icon{
-    margin-right: 25px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.terms{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
