@@ -56,6 +56,31 @@ nav{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
+.banner-section{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1260px;
+    margin: 50px auto 0;
+    
+}
+.bannner-img{
+    width: 50%;
+}
+.bannner-img img{
+    width: 100%;
+}
+.banner-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .btn-primary{
     border: none;
     border-radius: 48px;
@@ -76,35 +101,13 @@ nav{
     font-weight: 600;
 }
 
-.banner-container{
-    max-width: 1260px;
-    margin: 50px auto 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.banner-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-    height: 100%;
-    width: 50%;
-}
 .banner-title{
     color: #0B0223;
     font-size:2rem;
     font-weight: 600;
     margin: 0;
 } 
-.banner-img{
-    width: 50%;
-}
-.banner-img img{
-    width: 100%;
-    
-}
+
  .banner-title-two{
     margin: 0;
     font-size: 3rem;
