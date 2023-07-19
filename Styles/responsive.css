@@ -1,8 +1,58 @@
-@media screen and (max-width: 425px){
+@media screen and (max-width: 576px){
     .nav-item,
-    .nav{
+    .nav
+    {
         flex-direction: column;
         gap: 20px;
         margin: 0;
+        padding-bottom: 20px;
     }
+    .banner-container,
+    .anniversary
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btn-primary,
+    .btn-primary-two
+    {
+        padding: 10px 10px;
+    }
+    .game-title{
+        font-size: 1rem;
+    }
+    .game-description{
+        font-size: 0.5rem;
+    }
+    .game-card{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .anniversary-title{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .anniversary-description{
+        text-align: center;
+        font-size: 0.5rem;
+
+    }
+    .bonus-section,
+    .story-item,
+    .icon{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+    }
+    .games-name{
+        font-size: 0.5rem;
+        padding: 5px;  
+    }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+    }
+
+    
 }
