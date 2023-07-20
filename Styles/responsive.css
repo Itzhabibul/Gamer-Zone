@@ -1,10 +1,8 @@
+
+/* For Mobile Devices */
 @media screen and (max-width: 576px){
-    nav{
-        background: #FFF;
-        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    }
+    
     .nav{
-        display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -12,15 +10,7 @@
         margin-right: auto;
         padding-bottom: 50px;
     }
-    .nav-title{
-        color: #0B0223;
-        font-size: 2rem;
-        font-weight: 700;
-    }
     .nav-item{
-       
-        font-size: 1rem;
-        font-weight: 500;
         display: flex;
         justify-content: space-evenly;
         gap: 20px;
@@ -46,12 +36,9 @@
         padding: 50px 0;
         
     }
-    .banner-title{
-        color: #0B0223;
-        font-size:2rem;
-        font-weight: 600;
-        margin: 0;
-    } 
+    .game-card-description{
+        text-align: center;
+    }
    
     .game-card{
         margin: 0 auto;
@@ -63,11 +50,6 @@
     
     }
     .anniversary{
-        margin-top: 50px;
-        max-width: 1260px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -92,7 +74,8 @@
     .icon{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        gap: 5px;
+        gap: 10px;
+        text-align: center;
     }
     .games-name{
         font-size: 0.5rem;
@@ -101,12 +84,23 @@
     .terms{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 5px;
+        gap: 10px;
+        text-align: center;
     }
 
 }
 
+/* For Tablet Devices */
+
 @media screen and (min-width:576px)and (max-width:768px) {
+    .nav{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+    }
     .game-card{
         margin: 0 auto;
         display: grid;
@@ -115,4 +109,22 @@
         gap: 20px;
         border-radius: 16px;
     }
+    .game-card-description{
+        text-align: center;
+    }
+    .bonus-section,
+    .story-item,
+    .icon{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+        text-align: center;
+    }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        text-align: center;
+    }
+
 }
